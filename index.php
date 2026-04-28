@@ -37,7 +37,7 @@ if you're here reading this then thank you for caring about me and the little th
 		src="/_assets/arrow2.gif" />
 	latest videos
 </div>
-<div class="covercontainer">'
+<div class="covercontainer">
 	<?php $manager->renderGrid($all_covers) ?>
 </div>
 
