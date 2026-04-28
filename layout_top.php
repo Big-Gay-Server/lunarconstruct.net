@@ -116,7 +116,7 @@ require_once 'config.php';
 
 					foreach ($blinkiesDir as $blinky) {
 						// Convert server path back to a web-friendly relative URL for the <img> tag
-						$webPath = 'blinkies/' . basename($blinky);
+						$webPath = '/blinkies/' . basename($blinky);
 						echo '<img src="' . htmlspecialchars($webPath) . '" alt="blinky"/>';
 					}
 					?>
