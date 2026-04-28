@@ -3,7 +3,7 @@
         <div class="title">
             <img
                 src="/arrow.gif" />
-            tinket :)
+            click 4 tinket :)
         </div>
         <center>
             <a href="/trinket">
