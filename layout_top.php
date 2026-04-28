@@ -28,7 +28,7 @@
 		<div id="navigationwrap">
 			<div id="navigation" style="border-top-left-radius: 40px;border-top-right-radius: 40px;">
 				<center>
-					<a href="https://garden.lunarconstruct.net">garden</a>
+					<a href="/garden">garden</a>
 					<a href="https://vocalsynth.lunarconstruct.net">VocalSynth</a>
 					<a href="https://lunatine.lunarconstruct.net">Lunatine</a>
 					<a href="/gaming">Gaming</a>
@@ -63,7 +63,7 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="https://64.media.tumblr.com/171c295df37def8ea5bd3774fa3f2471/014d6f73835b6e87-e8/s75x75_c1/f2e8d21f39d3532d9cd06c05172782950d2625ad.gifv" />
+						src="arrow.gif" />
 					tinket :)
 				</div>
 				<center>
@@ -76,7 +76,7 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="https://64.media.tumblr.com/171c295df37def8ea5bd3774fa3f2471/014d6f73835b6e87-e8/s75x75_c1/f2e8d21f39d3532d9cd06c05172782950d2625ad.gifv" />
+						src="arrow.gif" />
 					webrings
 				</div>
 				<div id="vocaring" class="small"></div>
@@ -90,7 +90,7 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="https://64.media.tumblr.com/171c295df37def8ea5bd3774fa3f2471/014d6f73835b6e87-e8/s75x75_c1/f2e8d21f39d3532d9cd06c05172782950d2625ad.gifv" />
+						src="arrow.gif" />
 					MY SUPER COOL FRIENDS
 				</div>
 				<a href="https://www.najah.cloud/"><img src="najahbutton.png"></img></a>
@@ -101,7 +101,7 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="https://64.media.tumblr.com/171c295df37def8ea5bd3774fa3f2471/014d6f73835b6e87-e8/s75x75_c1/f2e8d21f39d3532d9cd06c05172782950d2625ad.gifv" />
+						src="arrow.gif" />
 					blinkies
 				</div>
 
