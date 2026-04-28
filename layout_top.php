@@ -107,12 +107,15 @@
 
 				<center>
 					<?php
-					$blinkiesDir = "/" . glob("blinkies/*.{jpg,png,gif}", GLOB_BRACE);
+					$absolutePath = BASE_PATH . 'blinkies/';
+					$blinkiesDir = glob($absolutePath . "*.{jpg,png,gif}", GLOB_BRACE);
 
 					foreach ($blinkiesDir as $blinky) {
-						$path = str_replace("\\", "/", $blinky);
-						
-						echo '<img src="' . htmlspecialchars($path) . '" alt="blinky"/>';
+						// Convert server path back to a web-friendly relative URL for the <img> tag
+						$webPath = 'blinkies/' . basename($blinky);
+						echo '<img src="' . htmlspecialchars($webPath) . '" alt="blinky"/>';
+					}
+					?>
 					}
 					?>
 				</center>
