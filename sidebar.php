@@ -32,7 +32,7 @@
                 src="/_assets/arrow.gif" />
             MY SUPER COOL FRIENDS
         </div>
-        <a href="https://www.najah.cloud/"><img src="/najahbutton.png"></img></a>
+        <a href="https://www.najah.cloud/"><img src="/_assets/najahbutton.png"></img></a>
         <br />
         <br />
     </div>
