@@ -1,26 +1,3 @@
-<div class="title2">
-	<img
-		src="/_assets/arrow2.gif" />
-	intro
-</div>
-27 || they/them || NJ, US
-<br />
-<br />
-<br />
-
-hiiiiii the namess lunar, and i had the bio i had before this one for like 10 years
-<br />
-<br />
-iiiiiim just a guy, i like to do thing!! most of my thing i like exist inside my puter so im making a
-little online garden for myself!! 
-<br />
-<br />
-if you're here reading this then thank you for caring about me and the little things i like to do!
-<br />
-<br />
-<br />
-<br />
-
 <?php
 require_once VOCALSYNTH_PATH . 'includes/covermanager.php';
 require_once VOCALSYNTH_PATH . 'includes/functions.php';
@@ -37,20 +14,32 @@ $filters = [
 
 // fetch covers
 $all_covers = $manager->getCovers($filters); 
+?>
 
-// display covers!!! so easy
-echo '<div class="title2">
+
+
+<div class="title2">
+	<img
+		src="/_assets/arrow2.gif" />
+	intro
+</div>
+27 || they/them || NJ, US
+
+hiiiiii the namess lunar, and i had the bio i had before this one for like 10 years
+
+iiiiiim just a guy, i like to do thing!! most of my thing i like exist inside my puter so im making a
+little online garden for myself!! 
+
+if you're here reading this then thank you for caring about me and the little things i like to do!
+
+<div class="title2">
 	<img
 		src="/_assets/arrow2.gif" />
 	latest videos
-</div>';
-echo '<div class="covercontainer">';
-	$manager->renderGrid($all_covers); 
-echo '</div>';
-?>
-<br />
-<br />
-<br />
+</div>
+<div class="covercontainer">'
+	<?php $manager->renderGrid($all_covers) ?>
+</div>
 
 <div class="title2">
 	<img
