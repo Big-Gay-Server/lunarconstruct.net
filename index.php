@@ -1,3 +1,7 @@
+<?php
+require_once 'config.php';
+?>
+
 <div id="contentwrap">
 	<div id="content">
 		<div class="title2">
