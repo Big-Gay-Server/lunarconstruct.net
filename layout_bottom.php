@@ -1,3 +1,6 @@
+	</div>
+</div>
+
 <img src="/trinket/trinket_transparent.png"
 			style="position: fixed;bottom: 0;right: 0;width: 600px;z-index: -1" />
 
