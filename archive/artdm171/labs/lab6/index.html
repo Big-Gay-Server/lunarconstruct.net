@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Practice</title>
+    <meta name="Sarah Cullup" content="" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <form action="form.php" method="post">
+        <fieldset>
+            <legend>Join our Mailing List</legend>
+            <ul style="list-style: none;">
+                <li style="margin: 1rem;">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" placeholder="i.e. Jane Doe" required />
+                </li>
+                <li style="margin: 1rem;">
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="i.e. example@example.com" required />
+                </li>
+                <li style="margin: 1rem;">
+                    <label for="message">Any Comments?</label>
+                    <textarea name="message" placeholder="Share your thoughts!"></textarea>
+                </li>
+                <li style="margin: 1rem;">
+                    <input type="submit" name="submitted" />
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

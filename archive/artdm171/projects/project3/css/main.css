@@ -1,0 +1,148 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Lato|Righteous');
+
+/* HEADER */
+
+header {
+    padding: 2rem;
+    background-color: white;
+    background-image: url('../images/backgrounds/arches.png');
+    margin: 0;
+    box-shadow: 5px 2px 8px gray;
+}
+header img {
+    max-height: 10rem;
+    float: left;
+    margin: 2rem;
+    margin-top: 0;
+    overflow-y: hidden;
+}
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+    color: #4f2ea1;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0, 0.7);
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #e2f8fc;
+    padding: .1rem;
+    margin: 0;
+    box-shadow: 5px 5px 8px gray;
+    border-style: double none double none;
+    list-style-type: none;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: auto;
+    font-size: 1.2rem;
+}
+.current {
+    color: #4f2ea1;
+    text-decoration: overline;
+    text-decoration-color: #4f2ea1;
+}
+nav li p {
+    display: inline;
+    text-decoration: none;
+}
+
+/* BODY */
+
+body {
+    background: url("../images/backgrounds/topography.png") #fff;
+    font-family: 'Lato', sans-serif;
+    color: #4f2ea1;
+    margin: 0;
+}
+main {
+    background-color: white;
+    padding: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 2px 5px 8px gray;
+}
+main p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+main li {
+    list-style-type: none;
+}
+main img {
+    max-width: 100%;
+    width: auto;
+}
+.imgwcaption {
+    font-size: .75em;
+    text-align: right;
+}
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    font-style: italic;
+    color: #003da5;
+    padding-left: 5%;
+}
+h3 {
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+    color: #008dab;
+}
+main h3 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a {
+    color: #00aec7;
+}
+a:visited {
+    color: #00b26f;
+}
+
+/* TABLES */
+
+table {
+    background-image: url('../images/backgrounds/light-grey-terrazzo.png');
+    border-style: double;
+}
+td {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #4f2ea1;
+    padding: 0.5rem;
+}
+th {
+    font-size: 14pt;
+    border-style: groove;
+    border-color: #4f2ea1;
+    padding: 0.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #e2f8fc;
+    padding: 1rem;
+    text-align: center;
+    border-top: solid;
+    border-top-width: thin;
+    border-top-color: #4f2ea1;
+}
+
+/* DIFFERENT BROWSER SIZES */
+
+@media only screen and (min-width: 800px) {
+    main {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}

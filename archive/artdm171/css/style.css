@@ -1,0 +1,81 @@
+body {
+    background-color: #8ee5f5;
+    background-image: url("../img/pastelbg3.png");
+}
+h1 {
+    color: #fbd1f2;
+    font-family: "04B_30";
+    font-size: 50px;
+}
+h2 {
+    color: #fff3a5;
+    font-family: CyborgSister;
+    font-size: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+h3 {
+    color: #c8fed7;
+    font-family: CyborgSister;
+    font-size: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+h4 {
+    color: #c8fed7;
+    font-family: CyborgSister;
+    font-size: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+p {
+    color: #7a4a31;
+    font-family: CyborgSister;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+a {
+    color: #f3a9ea;
+}
+ol {
+    color: #7a4a31;
+    font-family: CyborgSister;
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: left
+}
+@font-face {
+    font-family: Avenir;
+    src: url("../fonts/AvenirLTStd-Book.otf");
+}
+@font-face {
+    font-family: CyborgSister;
+    src: url("../fonts/CyborgSister.ttf");
+}
+@font-face {
+    font-family: Notepen;
+    src: url("../fonts/Notepen.ttf");
+}
+@font-face {
+    font-family: "04B_30";
+    src: url("../fonts/04B_30__.TTF");
+}
+.outline {
+    color: #7a4a31;
+    text-shadow: #000 2px 2px 2px;
+    -webkit-font-smoothing: antialiased;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

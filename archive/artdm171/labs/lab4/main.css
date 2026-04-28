@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Raleway');
+body {
+    background: #bbb url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 90rem;
+    margin: auto;
+}
+main {
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+    background: rgb(255, 255, 255, 0.2);
+}
+img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10%;
+}
+td {
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #2592d3;
+}
+th {
+    font-size: 14pt;
+    border-style: solid;
+    border-color: #2592d3;
+}
+main img {
+    max-width: 70%;
+}
+header {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    background-color: #b2d6eb;
+}
+header nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    padding: 1rem
+}
+.current {
+    text-decoration: overline;
+    color: #2592d3
+}
+footer {
+    background-color: #b2d6eb;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem
+}
+table {
+    background-color: #acd2e9;
+    border-style: dashed;
+    border-color: #142aaa;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h1 {
+    text-shadow: 3px 5px #efefef;
+    color: #142aaa;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+}
+h2 {
+    color: #2592d3;
+    text-shadow: 1px 3px #fff;
+    font-size: 2rem;
+    padding: 1rem
+}
+h3 {
+    background: #acd2e9;
+    width: 20rem;
+    padding-left: .5rem;
+    padding-bottom: .2rem;
+    padding-top: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0;
+    color: #142aaa;
+    box-shadow: -3px 5px 10px #efefefBF;
+}
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    margin-top: 1rem;
+    width: 500px;
+}
+figcaption {
+    font-size: 0.9rem;
+    padding-left: 4rem;
+}
+@media screen and (min-width:720px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    main img {
+        max-width: 40%;
+    }
+}
