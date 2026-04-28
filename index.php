@@ -1,6 +1,3 @@
-<?php
-require_once 'config.php';
-?>
 <div class="title2">
 	<img
 		src="arrow2.gif" />
