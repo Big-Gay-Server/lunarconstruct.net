@@ -1,7 +1,3 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
 body {
     background: #FCE5ED url("newbgplain.png");
     background-size: cover;
@@ -11,10 +7,6 @@ body {
     color: #888;
     letter-spacing: 1px;
 }
-
-
-
-
 
 #wrapper {
     margin: 0 auto;
