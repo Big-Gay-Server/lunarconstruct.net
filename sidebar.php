@@ -2,7 +2,7 @@
     <div id="leftcolumn">
         <div class="title">
             <img
-                src="/arrow.gif" />
+                src="/_assets/arrow.gif" />
             click 4 tinket :)
         </div>
         <center>
@@ -15,7 +15,7 @@
     <div id="leftcolumn">
         <div class="title">
             <img
-                src="/arrow.gif" />
+                src="/_assets/arrow.gif" />
             webrings
         </div>
         <div id="vocaring" class="small"></div>
@@ -29,7 +29,7 @@
     <div id="leftcolumn">
         <div class="title">
             <img
-                src="/arrow.gif" />
+                src="/_assets/arrow.gif" />
             MY SUPER COOL FRIENDS
         </div>
         <a href="https://www.najah.cloud/"><img src="/najahbutton.png"></img></a>
@@ -40,18 +40,18 @@
     <div id="leftcolumn">
         <div class="title">
             <img
-                src="/arrow.gif" />
+                src="/_assets/arrow.gif" />
             blinkies
         </div>
 
         <center>
             <?php
-            $absolutePath = BASE_PATH . 'blinkies/';
+            $absolutePath = BASE_PATH . '/_assets/blinkies/';
             $blinkiesDir = glob($absolutePath . "*.{jpg,png,gif}", GLOB_BRACE);
 
             foreach ($blinkiesDir as $blinky) {
                 // Convert server path back to a web-friendly relative URL for the <img> tag
-                $webPath = '/blinkies/' . basename($blinky);
+                $webPath = '/_assets/blinkies/' . basename($blinky);
                 echo '<img src="' . htmlspecialchars($webPath) . '" alt="blinky"/>';
             }
             ?>

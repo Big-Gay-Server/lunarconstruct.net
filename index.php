@@ -1,6 +1,6 @@
 <div class="title2">
 	<img
-		src="arrow2.gif" />
+		src="/_assets/arrow2.gif" />
 	intro
 </div>
 27 || they/them || NJ, US
@@ -41,7 +41,7 @@ $all_covers = $manager->getCovers($filters);
 // display covers!!! so easy
 echo '<div class="title2">
 	<img
-		src="arrow2.gif" />
+		src="/_assets/arrow2.gif" />
 	latest videos
 </div>';
 echo '<div class="covercontainer">';
@@ -54,12 +54,12 @@ echo '</div>';
 
 <div class="title2">
 	<img
-		src="arrow2.gif" />
+		src="/_assets/arrow2.gif" />
 	stamps
 </div>
 <center>
 	<?php
-	$stampDir = glob("stamps/*.{jpg,png,gif}", GLOB_BRACE);
+	$stampDir = glob("/_assets/stamps/*.{jpg,png,gif}", GLOB_BRACE);
 
 	foreach ($stampDir as $stamp) {
 		$path = str_replace("\\", "/", $stamp);

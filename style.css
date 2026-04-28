@@ -1,5 +1,5 @@
 body {
-    background: #FCE5ED url("newbgplain.png");
+    background: #FCE5ED url("/_assets/newbgplain.png");
     background-size: cover;
     font-family: monospace, calibri, Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -22,7 +22,7 @@ body {
 #header {
     height: 250px;
     margin: 0px;
-    background: url(banner_no_text.png);
+    background: url(/_assets/banner_no_text.png);
     background-size: 1000px 250px;
 
 }
