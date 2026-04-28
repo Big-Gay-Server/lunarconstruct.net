@@ -59,12 +59,13 @@ echo '</div>';
 </div>
 <center>
 	<?php
-	$stampDir = glob("/_assets/stamps/*.{jpg,png,gif}", GLOB_BRACE);
+	$absolutePath = BASE_PATH . '/_assets/stamps/';
+	$stampsDir = glob($absolutePath . "*.{jpg,png,gif}", GLOB_BRACE);
 
-	foreach ($stampDir as $stamp) {
-		$path = str_replace("\\", "/", $stamp);
-		
-		echo '<img src="' . htmlspecialchars($path) . '" alt="stamp"/>';
+	foreach ($stampsDir as $stamp) {
+		// Convert server path back to a web-friendly relative URL for the <img> tag
+		$webPath = '/_assets/stamps/' . basename($stamp);
+		echo '<img src="' . htmlspecialchars($webPath) . '" alt="stamp"/>';
 	}
 	?>
 </center>
