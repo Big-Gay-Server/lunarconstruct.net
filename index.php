@@ -32,7 +32,7 @@
 
 		// set filters
 		$filters = [
-			'limit' => 4,
+			'limit' => 2,
 			'requireVideo' => true,
 			'minYear' => 2016
 		];
