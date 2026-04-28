@@ -19,8 +19,8 @@ require_once 'config.php';
 	<br />
 
 	<div id="wrapper">
-		<?php require_once '/header.php'; ?>
-		<?php require_once '/sidebar.php'; ?>
+		<?php require_once 'header.php'; ?>
+		<?php require_once 'sidebar.php'; ?>
 
 <div id="contentwrap">
 	<div id="content">
