@@ -107,7 +107,7 @@
 
 				<center>
 					<?php
-					$blinkiesDir = glob("blinkies/*.{jpg,png,gif}", GLOB_BRACE);
+					$blinkiesDir = "/" . glob("blinkies/*.{jpg,png,gif}", GLOB_BRACE);
 
 					foreach ($blinkiesDir as $blinky) {
 						$path = str_replace("\\", "/", $blinky);
