@@ -17,44 +17,47 @@ $all_covers = $manager->getCovers($filters);
 ?>
 
 
+<div class="mainsection">
+	<div class="title2">
+		<img src="/_assets/arrow2.gif" /> intro
+	</div>
+	<p>27 || they/them || NJ, US
 
-<div class="title2">
-	<img
-		src="/_assets/arrow2.gif" />
-	intro
-</div>
-27 || they/them || NJ, US
+	<p>hiiiiii the namess lunar, and i had the bio i had before this one for like 10 years
 
-hiiiiii the namess lunar, and i had the bio i had before this one for like 10 years
+	<p>iiiiiim just a guy, i like to do thing!! most of my thing i like exist inside my puter so im making a
+	little online garden for myself!! 
 
-iiiiiim just a guy, i like to do thing!! most of my thing i like exist inside my puter so im making a
-little online garden for myself!! 
-
-if you're here reading this then thank you for caring about me and the little things i like to do!
-
-<div class="title2">
-	<img
-		src="/_assets/arrow2.gif" />
-	latest videos
-</div>
-<div class="covercontainer">
-	<?php $manager->renderGrid($all_covers) ?>
+	<p>if you're here reading this then thank you for caring about me and the little things i like to do!
 </div>
 
-<div class="title2">
-	<img
-		src="/_assets/arrow2.gif" />
-	stamps
+<div class="mainsection">
+	<div class="title2">
+		<img
+			src="/_assets/arrow2.gif" />
+		latest videos
+	</div>
+	<div class="covercontainer">
+		<?php $manager->renderGrid($all_covers) ?>
+	</div>
 </div>
-<center>
-	<?php
-	$absolutePath = BASE_PATH . '/_assets/stamps/';
-	$stampsDir = glob($absolutePath . "*.{jpg,png,gif}", GLOB_BRACE);
 
-	foreach ($stampsDir as $stamp) {
-		// Convert server path back to a web-friendly relative URL for the <img> tag
-		$webPath = '/_assets/stamps/' . basename($stamp);
-		echo '<img src="' . htmlspecialchars($webPath) . '" alt="stamp"/>';
-	}
-	?>
-</center>
+<div class="mainsection">
+	<div class="title2">
+		<img
+			src="/_assets/arrow2.gif" />
+		stamps
+	</div>
+	<center>
+		<?php
+		$absolutePath = BASE_PATH . '/_assets/stamps/';
+		$stampsDir = glob($absolutePath . "*.{jpg,png,gif}", GLOB_BRACE);
+
+		foreach ($stampsDir as $stamp) {
+			// Convert server path back to a web-friendly relative URL for the <img> tag
+			$webPath = '/_assets/stamps/' . basename($stamp);
+			echo '<img src="' . htmlspecialchars($webPath) . '" alt="stamp"/>';
+		}
+		?>
+	</center>
+</div>
