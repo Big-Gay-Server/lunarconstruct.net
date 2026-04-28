@@ -81,3 +81,6 @@ require_once 'config.php';
 				</center>
 			</div>
 		</div>
+
+<div id="contentwrap">
+	<div id="content">
