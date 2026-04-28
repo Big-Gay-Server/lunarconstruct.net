@@ -63,7 +63,7 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="arrow.gif" />
+						src="/arrow.gif" />
 					tinket :)
 				</div>
 				<center>
@@ -76,7 +76,7 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="arrow.gif" />
+						src="/arrow.gif" />
 					webrings
 				</div>
 				<div id="vocaring" class="small"></div>
@@ -90,7 +90,7 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="arrow.gif" />
+						src="/arrow.gif" />
 					MY SUPER COOL FRIENDS
 				</div>
 				<a href="https://www.najah.cloud/"><img src="najahbutton.png"></img></a>
@@ -101,13 +101,13 @@
 			<div id="leftcolumn">
 				<div class="title">
 					<img
-						src="arrow.gif" />
+						src="/arrow.gif" />
 					blinkies
 				</div>
 
 				<center>
 					<?php
-					$blinkiesDir = glob("blinkies/*.{jpg,png,gif}", GLOB_BRACE);
+					$blinkiesDir = glob("/blinkies/*.{jpg,png,gif}", GLOB_BRACE);
 
 					foreach ($blinkiesDir as $blinky) {
 						$path = str_replace("\\", "/", $blinky);
