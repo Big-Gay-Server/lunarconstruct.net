@@ -111,7 +111,7 @@
 
 					foreach ($blinkiesDir as $blinky) {
 						$path = str_replace("\\", "/", $blinky);
-						echo $blinky;
+						echo "what";
 						echo '<img src="' . htmlspecialchars($path) . '" alt="blinky"/>';
 					}
 					?>
