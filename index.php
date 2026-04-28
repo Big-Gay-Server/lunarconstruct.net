@@ -14,7 +14,7 @@
 		<br />
 		<br />
 		iiiiiim just a guy, i like to do thing!! most of my thing i like exist inside my puter so im making a
-		little garden for myself!! why not lmao
+		little online garden for myself!! 
 		<br />
 		<br />
 		if you're here reading this then thank you for caring about me and the little things i like to do!
@@ -24,8 +24,8 @@
 		<br />
 
 		<?php
-		require_once __DIR__ . "/../vocalsynth/includes/covermanager.php";
-		require_once __DIR__ . "/../vocalsynth/includes/functions.php";
+		require_once VOCALSYNTH_PATH . 'includes/covermanager.php';
+		require_once VOCALSYNTH_PATH . 'includes/functions.php';
 		
 		// initialize the class (this specific instance of the cover gird)
 		$manager = new CoverManager();
