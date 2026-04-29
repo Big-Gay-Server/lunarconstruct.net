@@ -38,11 +38,13 @@ body {
     height: 250px;
     background: url(/_assets/banner_no_text.png);
     background-size: 1000px 250px;
-    
+    /* These three lines handle the centering */
+    display: flex;
+    align-items: center;     /* Centers vertically */
+    justify-content: center;  /* Centers horizontally */
 }
 
 .headertext {
-    margin: 0 auto;
     font-size: 70px;
     font-family: 'mochiBoomDemo', sans-serif;
     color: #fff;
