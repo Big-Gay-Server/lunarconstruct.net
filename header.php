@@ -1,5 +1,5 @@
 <div id="headerwrap">
-    <a href="/"> <div id="header"><br><br>
+    <a href="/"> <div id="header">
         <center>
             <div class="headertext">★ LunarConstruct ★</div>
         </center>

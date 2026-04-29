@@ -14,7 +14,6 @@ body {
 }
 
 #headerwrap { 
-    margin-top: 50px;
     width: 1000px; 
     float: left; 
     margin: 0 auto; 
@@ -37,7 +36,7 @@ body {
     margin: 0px;
     background: url(/_assets/banner_no_text.png);
     background-size: 1000px 250px;
-
+    
 }
 
 .headertext {
