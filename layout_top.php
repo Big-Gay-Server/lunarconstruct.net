@@ -16,9 +16,6 @@ require_once 'config.php';
 </head>
 
 <body>
-	<br />
-	<br />
-	<br />
 
 	<div id="wrapper">
 		<?php require_once 'header.php'; ?>
