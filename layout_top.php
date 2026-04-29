@@ -10,6 +10,7 @@ require_once 'config.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>LunarConstruct</title>
 	<link href="/style.css" rel="stylesheet" />
+	<link rel="icon" type="image/x-icon" href="/_assets/favicon.ico">
 	<link href="https://478.neocities.org/catalog/fonts.css" rel="stylesheet" />
 </head>
 
