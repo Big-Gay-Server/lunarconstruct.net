@@ -149,8 +149,6 @@ body {
 
 .title {
     background: #FBEFF3;
-    text-transform: uppercase;
-    font: 10px monospace;
     letter-spacing: 3px;
     color: #555;
     padding: 2px;
@@ -160,13 +158,11 @@ body {
 
 .title2 {
     background: #E9F9FF;
-    text-transform: uppercase;
     letter-spacing: 3px;
     color: #555;
     padding: 2px;
     padding-left: 4px;
     margin-bottom: 4px;
-    font-size: 13px;
 }
 
 b {
