@@ -3,6 +3,7 @@ body {
     background-size: cover;
     font-family: 'bunnysnaps', sans-serif;
     font-size: 20px;
+    line-height: normal;
     text-shadow: 0px 0px 1px #b3b3b3;
     color: #888;
     letter-spacing: 1px;
