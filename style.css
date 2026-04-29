@@ -37,11 +37,6 @@ body {
     -webkit-text-stroke-width: 2.00px;
 }
 
-
-
-
-
-
 #navigationwrap {
     width: 1000px;
     float: left;
@@ -128,10 +123,6 @@ a:active {
     text-align: center;
 }
 
-
-
-
-
 ::-webkit-scrollbar-thumb {
     background-color: #fff;
     border-radius: 0px;
@@ -143,10 +134,6 @@ a:active {
     height: 4px;
     background: #fff;
 }
-
-
-
-
 
 .title {
     background: #FBEFF3;
