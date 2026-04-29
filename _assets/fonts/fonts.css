@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "mochibopboldDemo";
+  src: url("/_assets/fonts/MochibopBold-Demo.ttf");
+}
+.mochibopboldDemo {
+  font-family: "mochibopboldDemo", sans-serif;
+}
+
+@font-face {
+  font-family: "mochibopDemo";
+  src: url("/_assets/fonts/Mochibop-Demo.ttf");
+}
+.mochibopDemo {
+  font-family: "mochibopDemo", sans-serif;
+}
+
+@font-face {
+  font-family: "bunnysnaps";
+  src: url("/_assets/fonts/BunnySnaps.otf");
+}
+.bunnysnaps {
+  font-family: "bunnysnaps", sans-serif;
+}
+
+@font-face {
+  font-family: "mochiBoomDemo";
+  src: url("/_assets/fonts/Mochi Boom DEMO.ttf");
+}
+.mochiBoomDemo {
+  font-family: "mochiBoomDemo", sans-serif;
+}
+
+@font-face {
+  font-family: "mochiBoomExtrudeDemo";
+  src: url("/_assets/fonts/Mochi Boom Extrude DEMO.ttf");
+}
+.mochiBoomExtrudeDemo {
+  font-family: "mochiBoomExtrudeDemo", sans-serif;
+}
