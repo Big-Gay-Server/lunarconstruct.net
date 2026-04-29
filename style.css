@@ -12,9 +12,9 @@ body {
 
 #wrapper {
     width: 1000px;
-    margin: 20px auto 0 auto; /* Your desired 20px gap */
-    display: flex;             /* This is the key */
-    flex-direction: column;    /* Keeps everything stacked vertically */
+    margin: 0 auto;    /* Change '20px' to '0' here */
+    display: flow-root;
+     
 }
 
 #headerwrap { 
