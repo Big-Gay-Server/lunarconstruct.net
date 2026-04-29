@@ -14,6 +14,7 @@ body {
 }
 
 #headerwrap { 
+    margin-top: 50px;
     width: 1000px; 
     float: left; 
     margin: 0 auto; 
