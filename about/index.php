@@ -7,22 +7,3 @@
 <p>i'm not as active as i used to be in online communities, but thats okay !! vocalsynth stuff was kind of my main thing for a long time, but i'm glad i'm starting to spread out and make my own space on the web !
 
 <p>anyway, thank you for checking out my little garden here!! if you're reading this you're very cool and very swag x3
-
-<script>
-    // JavaScript to calculate age
-    function calculateAge(birthDate) {
-        const today = new Date();
-        const dob = new Date(birthDate);
-        let age = today.getFullYear() - dob.getFullYear();
-        const monthDiff = today.getMonth() - dob.getMonth();
-
-        // Adjust if birthday hasn't happened yet this year
-        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < dob.getDate())) {
-            age--;
-        }
-        return age;
-    }
-
-    // Replace with your birthday (YYYY-MM-DD)
-    document.getElementById('age').innerText = calculateAge('1998-05-26');
-</script>

@@ -21,7 +21,7 @@ $all_covers = $manager->getCovers($filters);
 	<div class="title2">
 		<img src="/_assets/arrow2.gif" /> intro
 	</div>
-	<p>27 || they/them || NJ, US
+	<p><span id="age"></span> || they/them || NJ, US
 
 	<p>hiiiiii the namess lunar, and i had the bio i had before this one for like 10 years
 
