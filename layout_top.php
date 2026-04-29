@@ -12,7 +12,6 @@ require_once 'config.php';
 	<link href="/style.css" rel="stylesheet" />
 	<link href="/_assets/fonts/fonts.css" rel="stylesheet" />
 	<link rel="icon" type="image/x-icon" href="/_assets/favicon.ico">
-	<link href="https://478.neocities.org/catalog/fonts.css" rel="stylesheet" />
 </head>
 
 <body>
