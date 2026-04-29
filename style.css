@@ -7,7 +7,7 @@ body {
     color: #888;
     letter-spacing: 1px;
     margin: 0;         /* Clear the browser gap */
-    padding-top: 20px; /* This is your 20px space */
+    padding-top: 50px; /* This is your 20px space */
 }
 
 #wrapper {
