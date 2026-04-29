@@ -9,14 +9,14 @@ body {
 }
 
 #wrapper {
-    margin: 0 auto;
     width: 1000px;
+    margin: 20px auto 0 auto;
 }
 
 #headerwrap { 
+    margin: 0 auto;
     width: 1000px; 
     float: left; 
-    margin: 20px auto 0 auto;
     & a { 
         text-decoration: none; 
         text-transform: none; 
