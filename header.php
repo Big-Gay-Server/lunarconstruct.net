@@ -28,6 +28,10 @@
                 echo '<a href="' . htmlspecialchars($link['url']) . '">';
                 echo '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="' . $link['fill'] . '" viewBox="0 0 32 32">';
                 echo '<path d="' . $link['path'] . '"></path>';
+                // Handle special case for Twitch (extra paths)
+                if (isset($link['extra'])) {
+                    echo $link['extra'];
+                }
                 echo '</svg>';
                 echo '</a> ';
             }
