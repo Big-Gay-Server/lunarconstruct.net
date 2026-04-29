@@ -13,10 +13,22 @@ body {
     width: 1000px;
 }
 
-#headerwrap {
-    width: 1000px;
-    float: left;
-    margin: 0 auto;
+#headerwrap { 
+    width: 1000px; 
+    float: left; 
+    margin: 0 auto; 
+    & a { 
+        text-decoration: none; 
+        text-transform: none; 
+        /* Match your body or header text spacing so it doesn't jump */
+        letter-spacing: 1px; 
+    } 
+    & a:hover, & a:active { 
+        letter-spacing: 1px; 
+        text-transform: none; 
+        /* Optional: ensures the color doesn't change on click */
+        color: inherit; 
+    } 
 }
 
 #header {
