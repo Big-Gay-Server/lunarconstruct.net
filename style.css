@@ -16,8 +16,8 @@ body {
 #headerwrap { 
     width: 1000px; 
     float: left; 
+    margin-top: 20px;
     margin: 0 auto; 
-    overflow: hidden;
     & a { 
         text-decoration: none; 
         text-transform: none; 
@@ -37,7 +37,7 @@ body {
     margin: 0px;
     background: url(/_assets/banner_no_text.png);
     background-size: 1000px 250px;
-    overflow: hidden;
+    
 }
 
 .headertext {
