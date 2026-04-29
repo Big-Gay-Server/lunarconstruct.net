@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: "hayufont";
-  src: url("HayuFont.otf");
+  src: url("HayuFont.otf") format("opentype");
 }
 .hayufont {
   font-family: "hayufont", sans-serif;
