@@ -48,7 +48,7 @@
 
 @font-face {
   font-family: "idPopmaru";
-  src: url("/id-POPMARU-LightOT Regular.otf");
+  src: url("id-POPMARU-LightOT Regular.otf");
 }
 .idPopmaru {
   font-family: "idPopmaru", sans-serif;
