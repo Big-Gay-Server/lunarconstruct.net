@@ -6,32 +6,38 @@ body {
     text-shadow: 0px 0px 1px #b3b3b3;
     color: #888;
     letter-spacing: 1px;
-    margin: 0;         /* Clear the browser gap */
-    padding-top: 50px; /* This is your 20px space */
+    margin: 0;
+    /* Clear the browser gap */
+    padding-top: 50px;
+    /* This is your 20px space */
 }
 
 #wrapper {
     width: 1000px;
-    margin: 0 auto;    /* Change '20px' to '0' here */
+    margin: 0 auto;
+    /* Change '20px' to '0' here */
     display: flow-root;
-     
+
 }
 
-#headerwrap { 
-    width: 1000px; 
-    float: none; 
-    & a { 
-        text-decoration: none; 
-        text-transform: none; 
+#headerwrap {
+    width: 1000px;
+    float: none;
+
+    & a {
+        text-decoration: none;
+        text-transform: none;
         /* Match your body or header text spacing so it doesn't jump */
-        letter-spacing: 1px; 
-    } 
-    & a:hover, & a:active { 
-        letter-spacing: 1px; 
-        text-transform: none; 
+        letter-spacing: 1px;
+    }
+
+    & a:hover,
+    & a:active {
+        letter-spacing: 1px;
+        text-transform: none;
         /* Optional: ensures the color doesn't change on click */
-        color: inherit; 
-    } 
+        color: inherit;
+    }
 }
 
 #header {
@@ -40,8 +46,10 @@ body {
     background-size: 1000px 250px;
     /* These three lines handle the centering */
     display: flex;
-    align-items: center;     /* Centers vertically */
-    justify-content: center;  /* Centers horizontally */
+    align-items: center;
+    /* Centers vertically */
+    justify-content: center;
+    /* Centers horizontally */
 }
 
 .headertext {
