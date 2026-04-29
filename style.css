@@ -76,28 +76,19 @@ body {
     border: 1px solid #ebebeb;
     margin: 0px;
     padding: 5px;
-}
-
-#navigation a:link,
-#navigation a:visited,
-#navigation a:active {
-    font-size: 20px;
-    text-transform: lowercase;
-    line-height: 20px;
-    padding: 4px;
-    letter-spacing: 2px;
-    margin-right: 10px;
-    color: #888;
-}
-
-#navigation a:hover {
-    background: #fff;
-    text-transform: lowercase;
-    line-height: 20px;
-    padding: 4px;
-    letter-spacing: 4px;
-    margin-right: 10px;
-    color: #666;
+    & a {
+        font-size: 22px;
+        text-transform: lowercase;
+        line-height: 20px;
+        padding: 4px;
+        letter-spacing: 2px;
+        margin-right: 10px;
+        color: #888;
+        &:hover {
+            letter-spacing: 4px;
+            color: #666;
+        }
+    }
 }
 
 #contentwrap {
