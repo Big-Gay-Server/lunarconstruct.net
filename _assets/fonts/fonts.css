@@ -46,39 +46,10 @@
   font-family: "hayufont", sans-serif;
 }
 
-/* ==========================================
-   1. DEFINE YOUR CUSTOM 'idPopmaru'
-   ========================================== */
 @font-face {
-  font-family: "smartPopmaru";
-  src: url("id-POPMARU-LightOT Regular.otf") format("opentype");
-  /* No unicode-range here: lets it map all characters it actually owns */
+  font-family: "idPopmaru";
+  src: url("id-POPMARU-LightOT Regular.otf");
 }
-
-/* ==========================================
-   2. MAP MISSING KANJI TO A FALLBACK
-   ========================================== */
-@font-face {
-  font-family: "smartPopmaru";
-  /* Pulls Japanese system fonts or a loaded Noto Sans JP automatically */
-  src: local("Noto Sans CJK JP"), local("Noto Sans JP"), local("Meiryo");
-  /* Targets the CJK Unified Ideographs block (Kanji) */
-  unicode-range: U+4E00-9FFF;
-}
-
-/* ==========================================
-   3. MAP MISSING ACCENTED CHARACTERS (like é)
-   ========================================== */
-@font-face {
-  font-family: "smartPopmaru";
-  src: local("Noto Sans"), local("Arial"), local("sans-serif");
-  /* Targets basic and extended Latin characters */
-  unicode-range: U+0000-00FF, U+0100-017F;
-}
-
-/* ==========================================
-   4. ASSIGN THE NEW CLASS
-   ========================================== */
 .idPopmaru {
-  font-family: "smartPopmaru", sans-serif;
+  font-family: "idPopmaru", sans-serif;
 }
