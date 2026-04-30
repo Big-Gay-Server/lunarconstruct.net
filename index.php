@@ -7,7 +7,7 @@ $manager = new CoverManager();
 
 // set filters
 $filters = [
-	'limit' => 2,
+	'limit' => 4,
 	'requireVideo' => true,
 	'minYear' => 2016
 ];
