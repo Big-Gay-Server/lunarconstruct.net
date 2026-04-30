@@ -12,8 +12,6 @@
             <a href="/garden">garden</a>
             <a href="https://vocalsynth.lunarconstruct.net">VocalSynth</a>
             <a href="https://lunatine.lunarconstruct.net">Lunatine</a>
-            <a href="/gaming">Gaming</a>
-            <a href="/shrines">Shrines</a>
             <a href="/about">About</a>
         </center>
     </div>
