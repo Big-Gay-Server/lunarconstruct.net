@@ -9,7 +9,7 @@ require_once 'config.php';
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>LunarConstruct</title>
-	<link href="/style.css" rel="stylesheet" />
+	<link href="/style.css?v=1" rel="stylesheet" />
 	<link href="/_assets/fonts/fonts.css?v=4" rel="stylesheet" />
 	<link rel="icon" type="image/x-icon" href="/_assets/favicon.ico">
 </head>
